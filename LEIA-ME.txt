@@ -1,0 +1,22 @@
+ACRÍLICO DECORA — SITE INSTITUCIONAL
+
+Arquivos:
+- index.html: página inicial
+- sobre.html: apresentação da empresa
+- politica-de-privacidade.html: política de privacidade
+- termos-de-uso.html: termos de uso
+- assets/style.css: estilos personalizados
+- assets/: imagens enviadas e logotipo
+
+Como visualizar:
+1. Extraia todos os arquivos mantendo a estrutura de pastas.
+2. Abra index.html no navegador.
+
+Publicação:
+Envie todos os arquivos e a pasta assets para a pasta pública da hospedagem (normalmente public_html).
+O Bootstrap, Bootstrap Icons e as fontes são carregados por CDN; portanto, a página precisa de conexão com a internet.
+
+IMPORTANTE:
+Antes de anunciar no Google Ads, revise os dados de contato e confirme que a empresa realmente atende no endereço informado. Confirme também se o telefone recebe WhatsApp.
+A política de privacidade é um modelo inicial: atualize-a para refletir as ferramentas reais de hospedagem, análise, publicidade, cookies e formulários que forem instaladas.
+O formulário apenas abre o programa de e-mail do visitante; não há envio automático nem armazenamento pelo site.

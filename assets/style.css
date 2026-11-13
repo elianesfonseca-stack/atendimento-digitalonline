@@ -1,0 +1,64 @@
+
+:root {
+  --ink: #26221f;
+  --muted: #746c64;
+  --cream: #f7f4ef;
+  --sand: #e9e1d7;
+  --copper: #b77d55;
+  --line: rgba(38,34,31,.12);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; color: var(--ink); background: #fff; }
+h1,h2,h3,.serif { font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.025em; }
+a { color: inherit; }
+.navbar { background: rgba(255,255,255,.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+.navbar-brand img { width: 172px; height: auto; }
+.nav-link { color: #4d4640; font-size: .93rem; }
+.nav-link:hover { color: var(--copper); }
+.btn-accent { background: var(--ink); color: #fff; border: 1px solid var(--ink); border-radius: 2px; padding: .85rem 1.25rem; letter-spacing: .06em; text-transform: uppercase; font-size: .75rem; }
+.btn-accent:hover { background: var(--copper); border-color: var(--copper); color: #fff; }
+.btn-outline-dark { border-radius: 2px; padding: .82rem 1.2rem; text-transform: uppercase; letter-spacing: .06em; font-size: .75rem; }
+.hero { min-height: 660px; display: flex; align-items: center; background: linear-gradient(90deg, rgba(24,20,17,.76), rgba(24,20,17,.12)), url('../assets/vaso-flores-amarelas.jpeg') center 48%/cover no-repeat; color: #fff; }
+.hero-content { max-width: 620px; padding-top: 3rem; padding-bottom: 3rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .22em; font-size: .7rem; font-weight: 600; color: var(--copper); }
+.hero .eyebrow { color: #e9c7a8; }
+.hero h1 { font-size: clamp(2.8rem, 6vw, 5.4rem); line-height: .98; margin: 1rem 0 1.3rem; }
+.hero p { max-width: 500px; color: rgba(255,255,255,.86); font-size: 1.08rem; line-height: 1.8; }
+.section-pad { padding: 6rem 0; }
+.section-soft { background: var(--cream); }
+.section-title { font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.08; }
+.lead-copy { color: var(--muted); line-height: 1.85; }
+.product-card { border: 0; background: #fff; height: 100%; box-shadow: 0 12px 35px rgba(32,25,19,.06); }
+.product-card img { width: 100%; height: 330px; object-fit: cover; }
+.product-card .card-body { padding: 1.5rem; }
+.product-card h3 { font-size: 1.55rem; }
+.product-card p { color: var(--muted); font-size: .94rem; line-height: 1.7; }
+.feature-icon { width: 48px; height: 48px; display: grid; place-items: center; border: 1px solid var(--sand); border-radius: 50%; color: var(--copper); font-size: 1.25rem; margin-bottom: 1rem; }
+.feature h3 { font-size: 1.35rem; }
+.feature p { color: var(--muted); line-height: 1.75; }
+.image-note { color: var(--muted); font-size: .78rem; }
+.cta-band { background: #28231f; color: white; padding: 4rem 0; }
+.cta-band p { color: rgba(255,255,255,.72); }
+.contact-panel { background: var(--cream); padding: 2rem; height: 100%; }
+.contact-line { display: flex; gap: 1rem; margin: 1.25rem 0; }
+.contact-line i { color: var(--copper); font-size: 1.2rem; }
+.form-control { border-radius: 0; padding: .85rem; border-color: #ddd5cc; }
+.form-control:focus { border-color: var(--copper); box-shadow: 0 0 0 .2rem rgba(183,125,85,.12); }
+footer { background: #1f1c19; color: #fff; padding: 4rem 0 1.5rem; }
+footer p, footer li, footer address { color: rgba(255,255,255,.68); font-size: .88rem; line-height: 1.8; }
+footer a { color: rgba(255,255,255,.8); text-decoration: none; }
+footer a:hover { color: #e9c7a8; }
+.footer-title { font-family: Georgia,serif; font-size: 1.25rem; margin-bottom: 1.2rem; }
+.footer-logo { background: white; padding: 8px; width: 180px; height: auto; margin-bottom: 1rem; }
+.legal-hero { background: var(--cream); padding: 5rem 0 3rem; }
+.legal-content { max-width: 900px; padding: 4rem 0 5rem; }
+.legal-content h2 { font-size: 1.6rem; margin-top: 2rem; }
+.legal-content p, .legal-content li { color: #625b54; line-height: 1.85; }
+.small-print { font-size: .75rem; color: rgba(255,255,255,.5); }
+@media (max-width: 767px) {
+ .hero { min-height: 570px; background-position: 57% center; }
+ .section-pad { padding: 4rem 0; }
+ .product-card img { height: 290px; }
+ .navbar-brand img { width: 145px; }
+}
